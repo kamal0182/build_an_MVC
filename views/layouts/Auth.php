@@ -74,20 +74,14 @@
     
 </head>
 <body>
-<nav  class="navbar">
+    <H1></H1>
+<!-- <nav  class="navbar">
        <ul style="color:white;  " class="navbar-menu" >
         <li  class="navbar-item"><a href="/register">Register</a></li>
         <li  class="navbar-item" style="margin-left:10px ;  " ><a href="/Login">Login</a></li>
        </ul>
-        <ul class="navbar-menu">
-            <li class="navbar-item"><a href="/">Home</a></li>
-            <li class="navbar-item"><a href="#about">About</a></li>
-            <li class="navbar-item"><a href="#services">Services</a></li>
-            <li class="navbar-item"><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
+       
+    </nav> -->
 {{Content}}
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

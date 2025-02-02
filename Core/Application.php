@@ -1,5 +1,7 @@
 <?php 
 namespace app\Core;
+
+use app\Controller\Controller;
 use app\Core\Request as CoreRequest;
 use Request;
 class Application {
@@ -8,6 +10,7 @@ class Application {
     public CoreRequest $request ;
     public static Application $app ;
     public static string $root_dir ; 
+    public Controller $controller ;
     public function __construct($path) {
       Application::$app = $this ;
       $this->response = new Response ;
@@ -17,7 +20,7 @@ class Application {
     }
     public function run ()
     {
-      echo   $this->router->resolve();
+      echo  $this->router->resolve();
     }
 }
 
