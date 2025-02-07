@@ -15,6 +15,9 @@ class Controller {
     public function getLayouth(){
         return $this->layout ;
     }
+    public function add(){
+        
+    }
   
 }
 
