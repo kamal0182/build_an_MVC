@@ -12,6 +12,12 @@ class Controller {
     {
         return  Application::$app->router->renderView($View,$params);
     }
+    public function getLayouth(){
+        return $this->layout ;
+    }
+    public function add(){
+        
+    }
   
 }
 

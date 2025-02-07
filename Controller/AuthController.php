@@ -19,6 +19,7 @@ class AuthController extends Controller
     }
     public function login (){
         $this->setLayout("Auth"); 
+        echo "layout";
         return $this->render("Login");
     }    
 }
