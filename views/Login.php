@@ -1,5 +1,5 @@
 <div class="contaner-md">
-<form action="" method="post">
+<form  method="post">
   <div class="mb-3 ">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">

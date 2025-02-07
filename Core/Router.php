@@ -35,12 +35,11 @@ class Router {
             Application::$app->controller = new $callback[0];
             $callback[0] = Application::$app->controller ;
         }
-        
         return  call_user_func($callback,$this->request);
     }
     public function renderView($View,$params=[])
     {
-      $viewcontent = $this->changeContente($View,$params) ; 
+      $viewcontent = $this->changeContente($View,$params); 
       $layoutcontent = $this->layoutContent();
       return str_replace("{{Content}}",$viewcontent ,$layoutcontent);
     }

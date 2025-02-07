@@ -74,14 +74,7 @@
     
 </head>
 <body>
-    <H1></H1>
-<!-- <nav  class="navbar">
-       <ul style="color:white;  " class="navbar-menu" >
-        <li  class="navbar-item"><a href="/register">Register</a></li>
-        <li  class="navbar-item" style="margin-left:10px ;  " ><a href="/Login">Login</a></li>
-       </ul>
-       
-    </nav> -->
+    <h1>Contact :</h1>
 {{Content}}
 </body>
 </html>
